@@ -37,18 +37,43 @@ public class Main {
         veggies.add("fajita veggies");
         veggies.add("no veggies");
 
-        for (int i = 1; i <= 10; i++){
+        ArrayList<String> cheese = new ArrayList<String>();
+        cheese.add("cheese");
+        cheese.add("no cheese");
+
+        ArrayList<String> guac = new ArrayList<String>();
+        guac.add("guac");
+        guac.add("no guac");
+
+        ArrayList<String> queso = new ArrayList<String>();
+        queso.add("queso");
+        queso.add("queso");
+
+        ArrayList<String> sourCream = new ArrayList<String>();
+        sourCream.add("sour cream");
+        sourCream.add("no sour cream");
+
+
+        for (int i = 1; i <= 25; i++){
             int riceIndex = random.nextInt(rice.size());
             int meatIndex = random.nextInt(meat.size());
             int beansIndex = random.nextInt(beans.size());
             int salsaIndex = random.nextInt(salsa.size());
             int veggiesIndex = random.nextInt(veggies.size());
+            int cheeseIndex = random.nextInt(cheese.size());
+            int guacIndex = random.nextInt(guac.size());
+            int quesoIndex = random.nextInt(queso.size());
+            int sourCreamIndex = random.nextInt(sourCream.size());
             System.out.println("Burrito " + i + ": " +
                     rice.get(riceIndex) + ", " +
                     meat.get(meatIndex) + ", " +
                     beans.get(beansIndex) + ", " +
                     salsa.get(salsaIndex) + ", " +
-                    veggies.get(veggiesIndex));
+                    veggies.get(veggiesIndex) + ", " +
+                    cheese.get(cheeseIndex) + ", " +
+                    guac.get(guacIndex) + ", " +
+                    queso.get(quesoIndex) + ", " +
+                    sourCream.get(sourCreamIndex));
         }
     }
 }
