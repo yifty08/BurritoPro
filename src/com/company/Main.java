@@ -22,8 +22,8 @@ public class Main {
         meat.add("veggies");
 
         ArrayList<String> beans = new ArrayList<String>();
-        beans.add("pinto");
-        beans.add("black");
+        beans.add("pinto beans");
+        beans.add("black beans");
         beans.add("no beans");
 
         ArrayList<String> salsa = new ArrayList<String>();
@@ -31,13 +31,13 @@ public class Main {
         salsa.add("medium");
         salsa.add("hot");
         salsa.add("no salsa");
-        salsa.add("all");
+        salsa.add("mild salsa, medium salsa, hot salsa");
 
         ArrayList<String> veggies = new ArrayList<String>();
         veggies.add("lettuce");
         veggies.add("fajita veggies");
         veggies.add("no veggies");
-        veggies.add("all");
+        veggies.add("lettuce, fajita veggies");
 
         ArrayList<String> cheese = new ArrayList<String>();
         cheese.add("cheese");
@@ -49,11 +49,13 @@ public class Main {
 
         ArrayList<String> queso = new ArrayList<String>();
         queso.add("queso");
-        queso.add("queso");
+        queso.add("no queso");
 
         ArrayList<String> sourCream = new ArrayList<String>();
         sourCream.add("sour cream");
         sourCream.add("no sour cream");
+
+
 
 
         for (int i = 1; i <= 25; i++){
