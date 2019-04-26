@@ -31,11 +31,13 @@ public class Main {
         salsa.add("medium");
         salsa.add("hot");
         salsa.add("no salsa");
+        salsa.add("all");
 
         ArrayList<String> veggies = new ArrayList<String>();
         veggies.add("lettuce");
         veggies.add("fajita veggies");
         veggies.add("no veggies");
+        veggies.add("all");
 
         ArrayList<String> cheese = new ArrayList<String>();
         cheese.add("cheese");
